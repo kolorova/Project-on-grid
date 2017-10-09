@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Little bear</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Ribeye+Marrow" rel="stylesheet"> <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet"> 
+    </head>
+    <body>
+    <div id="wrapper">
+        <header>
+        	<p>Hello</p>
+        </header>
+        <section>
+	        <div class="container">
+		        <figure>
+				    <p><img class=bear src="images/pice-clipart-bear-15.gif" alt=""></p>
+				    <figcaption>Little bear</figcaption>
+				   </figure>
+	        	<div class="text">
+		        	<h1>Heading1</h1>
+		        	<h3>Heading 3</h3>
+		        </div>
+				<audio class="audio" controls>
+				 <source src="deti-online.com_-_malenkiy-princ.mp3" type="audio/mpeg" loop = 'loop'>
+				<a href="audio/music.mp3">Скачайте музыку</a>
+				</audio>
+				<button class="btn-search"> Search </button>
+			</div>
+			<blockquote>
+				<p>
+					“Success consists of going from failure to failure without loss of enthusiasm”
+				</p>
+				<cite>Winston Churchill</cite>
+			</blockquote>
+			<p>Пожалуйста, подождите, фотографии загружаются.</p>
+			<progress max="100" value="75">
+			Загружено на <span id="value">75</span>%
+			</progress>
+			<form oninput="result.value=(cm.value/2.54).toFixed(2)">
+			<p>Введите длину в сантиметрах: 
+			<input type="number" name="cm" autofocus></p>
+			<p>Длина в дюймах: <output name="result">0</output></p>
+			<meter value="80" max="100" low="10" high="60"><mark>Горячая</mark></meter>
+
+        </section>
+		<aside>
+			<div class="riddle">
+				<h1>Guess who I am!</h1>
+				<div class="riddle1">
+					<p>I live in the woods.</p>
+					<p>I’m very big and furry.</p>
+					<p>I have a big nose, a little tail and four legs.</p>
+					<p>I like to eat fish and berries.</p>
+					<p>I am a…</p>
+				</div>
+				<details>
+					<summary>
+						<span><em>Answer</em></span>
+					</summary>
+					<span>BEAR</span>
+				</details>
+			</div>
+			<div class="choose-box">
+				<p>Choose the autor:</p>
+				<blockquote>
+					<p>«It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change»</p>
+				</blockquote>
+				<p>
+					<input list="autor">
+					<datalist id="autor">
+						<option value="Winston Churchill"></option>
+						<option value="Charles Darwin"></option>
+						<option value="Farrah Gray"></option>
+					</datalist>
+				</p>
+			</div>
+
+			<form class="userData" method="post">
+				<label>Username: <input type="text" name="username"></label>
+				<label for="userData">Encryption: <keygen name="Public key" сhallenge="123456879" keytype="RSA" >
+				</label>
+				<input type="submit" value="Submit">
+			</form>
+			<div class="video-block">
+				<video width="400" height="300" controls="controls" poster="images/24263027.png">
+				<source 
+				src="Shh_video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+				</video>
+				<a href="https://www.youtube.com/watch?v=g6Qe40RlIEA&list=RDQM7vSJzppMhik&index=12">Постановка звук Ш</a>
+			</div>
+		</aside>
+	<footer>
+		<h4>Created by Natamor 09/10/2017 <time pubdate datetime="2017-10-09"> 2017-10-09</time>
+		<ruby>&copy;<rt>Copyright</rt></ruby>
+		</h4>
+	</footer>
+	</div>
+    </body>
+</html>
